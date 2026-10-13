@@ -24,10 +24,12 @@ title: "About Me"   # ✏️ This becomes the page title shown in the browser ta
 
 <p style="text-align: center;">
 
-<img src="headshot.jpg" width="400px" height="400px" style="object-fit: cover;
+```{=html}
+<img src="Ellie_Headshot.JPG" width="400px" height="400px" style="object-fit: cover;
               object-position: 50% 32%;
               border: 3px solid #333;
               margin-bottom: 30px;"/>
+```
 
 </p>
 
@@ -42,7 +44,8 @@ title: "About Me"   # ✏️ This becomes the page title shown in the browser ta
   ============================================================ -->
 ```
 
-✏️ Write your bio here — who you are, what you study, and what you care about.
+I am a passionate and creative student looking to learning all I can about the field of Data Science and use my out-of-the-box and artistic thinking to efficiently solve problems. I am majoring in Data Science and Art History at UNC Chapel Hill to earn a well rounded education incorporating both STEM and Humanities fields. I enjoy solving analytical problems, reading, and sewing. I love to combine creative skills I have with how I present data and learn from it, able to utilize both fields in interesting ways to do my best work.
+
 
 ```{=html}
 <!-- ============================================================
@@ -53,7 +56,13 @@ title: "About Me"   # ✏️ This becomes the page title shown in the browser ta
   ============================================================ -->
 ```
 
-[✏️ My Resume](example_resume.pdf)
+[✏️ My Resume]("Ellie Torres Resume..pdf")
+
+<iframe src="Ellie Torres Resume..pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+
+<p>Your browser can't preview PDFs. <a href="✏️ example_report.pdf">Click here to download instead.</a></p>
+
+</iframe>
 
 ```{=html}
 <!-- ============================================================
@@ -82,5 +91,5 @@ To view more information about my projects, please visit the [Projects](proj.qmd
 
 **Contact Information:**
 
--   Email: [✏️ ellie.ana.torres@gmail.com](mailto:ellie.ana.torres@gmail.com)
--   LinkedIn: [✏️ Ellie Torres](✏️%20https://www.linkedin.com/in/ellie-torres915/
+- Email: [✏️ ellie.ana.torres\@gmail.com](mailto:ellie.ana.torres@gmail.com)
+- LinkedIn: [ Ellie Torres](https://www.linkedin.com/in/ellie-torres915/)

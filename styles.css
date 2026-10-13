@@ -1,0 +1,105 @@
+:root {
+  --sage: #718568;
+  --sage-dark: #4e6549;
+  --sage-light: #e8ede3;
+  --brown: #705746;
+  --brown-dark: #4e3d32;
+  --cream: #fbf8f2;
+  --paper: #fffdf9;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--brown-dark);
+  font-family: "Aptos", "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--brown-dark);
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--sage-dark);
+  text-decoration-color: #a8b49e;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus {
+  color: var(--brown);
+  text-decoration-color: currentColor;
+}
+
+#quarto-header .navbar {
+  background-color: var(--sage) !important;
+  box-shadow: 0 2px 10px rgb(62 76 55 / 12%);
+}
+
+#quarto-header .navbar,
+#quarto-header .navbar a,
+#quarto-header .navbar .navbar-brand,
+#quarto-header .navbar .nav-link {
+  color: var(--paper);
+}
+
+#quarto-header .navbar .nav-link:hover,
+#quarto-header .navbar .nav-link:focus,
+#quarto-header .navbar .nav-link.active {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #d8dfd0;
+  text-underline-offset: 0.35em;
+}
+
+.btn,
+button {
+  border-color: var(--sage-dark);
+  background-color: var(--sage-dark);
+  color: var(--paper);
+}
+
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+  border-color: var(--brown);
+  background-color: var(--brown);
+  color: var(--paper);
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.home-buttons .btn {
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.1rem;
+  text-decoration: none;
+}
+
+blockquote {
+  border-left-color: var(--sage);
+  color: var(--brown);
+}
+
+code {
+  color: var(--brown-dark);
+  background-color: var(--sage-light);
+}
+
+hr {
+  border-color: #d8d0c4;
+  opacity: 1;
+}

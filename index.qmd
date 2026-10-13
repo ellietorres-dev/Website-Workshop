@@ -1,8 +1,10 @@
 ---
-title: "✏️ Your Name"
+title: "Ellie Torres"
 ---
 
-Welcome to my personal website! Here you will find information about me and my work. Feel free to explore using the navigation bar above.
+I am a passionate and creative student looking to learning all I can about the field of Data Science and use my out-of-the-box and artistic thinking to efficiently solve problems. I am majoring in Data Science and Art History at UNC Chapel Hill to earn a well rounded education incorporating both STEM and Humanities fields. I enjoy solving analytical problems, reading, and sewing. I love to combine creative skills I have with how I present data and learn from it, able to utilize both fields in interesting ways to do my best work.
 
--   Visit the [About Me](aboutme.qmd) tab to learn more about my background and how to get in touch.
--   Visit the [Projects](proj.qmd) tab to see examples of my work.
+::: {.home-buttons}
+[About Me](aboutme.qmd){.btn .btn-primary}
+[Projects](proj.qmd){.btn .btn-primary}
+:::
